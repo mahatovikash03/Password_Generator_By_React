@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full page */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main box */
+.box {
+  background-color: #1e1e2f;
+  padding: 25px;
+  width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* Password input + button */
+.passw {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.passw input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px 0 0 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.copy {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.copy:hover {
+  background-color: #4338ca;
+}
+
+/* Range section */
+.ran {
+  margin-bottom: 15px;
+}
+
+.ran input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.ran label {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Checkbox sections */
+.number,
+.character {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
